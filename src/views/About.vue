@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div>
+       <Header></Header>
+       <div class="about">
+          <h1>This is an about page</h1>
+       </div>
+    </div>
 </template>
+<script>
+   import Header from '../components/Header'
+   export default{
+     name: 'About',
+     components: {
+        Header
+     }
+   }
+</script>
